@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hamza ELRHADIOUINI — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Home">
+        <span class="dot"></span><span>ELRHAD</span>
+      </a>
+
+      <input id="nav-toggle" type="checkbox" aria-label="Toggle navigation" />
+      <label for="nav-toggle" class="hamburger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a class="btn btn-outline" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- Hero -->
+    <section class="section hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Software Engineering Student · Full-Stack Developer</p>
+
+          <!-- Flip-on-hover name -->
+          <h1 class="flip-name" aria-label="Hamza ELRHADIOUINI">
+            <!-- Each letter is split so we can flip it on hover purely with CSS -->
+            <span>H</span><span>a</span><span>m</span><span>z</span><span>a</span>
+            <span>&nbsp;</span>
+            <span>E</span><span>L</span><span>R</span><span>H</span><span>A</span><span>D</span><span>I</span><span>O</span><span>U</span><span>I</span><span>N</span><span>I</span>
+          </h1>
+
+          <p class="lead">
+            I build clean, reliable web apps — cloud-ready and user-focused.
+            Open to any tech that adds real value to future projects.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="#about">About Me</a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <span class="stat-num">10+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">6</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">3</span>
+              <span class="stat-label">Stacks</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="card">
+            <div class="card-header">
+              <div class="status-dot"></div>
+              <span>Currently exploring</span>
+            </div>
+            <ul class="card-list">
+              <li><strong>Backend:</strong> Java Spring Boot, Laravel, Node</li>
+              <li><strong>Frontend:</strong> React, Tailwind, Bootstrap</li>
+              <li><strong>Mobile:</strong> Android (MVVM, Room)</li>
+              <li><strong>DevOps:</strong> Docker · CI/CD basics</li>
+            </ul>
+            <div class="links">
+              <a href="https://github.com/ELGHAD" target="_blank" rel="noopener">GitHub ↗</a>
+              <a href="https://hamza-elrhadiouini-portfolio.lovable.app" target="_blank" rel="noopener">Portfolio ↗</a>
+              <a href="https://linkedin.com/in/elrhadiouini-hamza-64ba04202" target="_blank" rel="noopener">LinkedIn ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>About</h2>
+          <p>
+            Final-year Software Engineering student at EMSI Rabat, passionate about building end-to-end
+            solutions with robust architecture and clean UI. I enjoy problem-solving, teamwork, and
+            shipping features that matter. Seeking a PFE internship (pre-hire option).
+          </p>
+        </div>
+        <div class="about-highlights">
+          <div class="highlight">
+            <h3>What I value</h3>
+            <p>Clean code, thoughtful UX, performance, and maintainability.</p>
+          </div>
+          <div class="highlight">
+            <h3>Fun fact</h3>
+            <p>I don’t push to GitHub every day — I drop albums, not singles. 🎧</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills & Tech</h2>
+        <div class="tags">
+          <span>HTML</span><span>CSS</span><span>Sass</span><span>Bootstrap</span>
+          <span>JavaScript</span><span>React</span><span>Tailwind</span>
+          <span>Java</span><span>Spring Boot</span>
+          <span>PHP</span><span>Laravel</span>
+          <span>Node.js</span><span>Express</span>
+          <span>MySQL</span><span>SQLite</span>
+          <span>C</span><span>C++</span><span>Arduino</span>
+          <span>Android · MVVM</span>
+          <span>Git</span><span>Docker</span>
+          <span>Figma</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project">
+            <h3>RATITEC Admin Platform</h3>
+            <p>Full-stack web app for managing projects, technicians, and clients with dashboards and invoicing.</p>
+            <div class="chips"><span>Laravel</span><span>MySQL</span><span>Bootstrap</span></div>
+            <div class="actions">
+              <a class="btn btn-ghost" href="#" aria-disabled="true">Details</a>
+              <a class="btn btn-outline" href="#" aria-disabled="true">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <h3>Teachers Task Manager</h3>
+            <p>Auth, CRUD tasks, and clean UI for teachers to plan, track, and review work.</p>
+            <div class="chips"><span>Django</span><span>SQLite</span><span>Bootstrap</span></div>
+            <div class="actions">
+              <a class="btn btn-ghost" href="#" aria-disabled="true">Details</a>
+              <a class="btn btn-outline" href="#" aria-disabled="true">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <h3>Android To-Do (MVVM)</h3>
+            <p>Offline-first tasks app with Room DB, clean architecture, and modern UI patterns.</p>
+            <div class="chips"><span>Android</span><span>Room</span><span>MVVM</span></div>
+            <div class="actions">
+              <a class="btn btn-ghost" href="#" aria-disabled="true">Details</a>
+              <a class="btn btn-outline" href="#" aria-disabled="true">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container contact">
+        <h2>Contact</h2>
+        <p>Want to collaborate or chat about an idea? Let’s talk.</p>
+        <a class="btn" href="mailto:hamelrhadiouini@gmail.com">Email Me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="y">2025</span> Hamza ELRHADIOUINI</p>
+      <div class="footer-links">
+        <a href="https://github.com/ELGHAD" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://hamza-elrhadiouini-portfolio.lovable.app" target="_blank" rel="noopener">Portfolio</a>
+        <a href="https://linkedin.com/in/elrhadiouini-hamza-64ba04202" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
